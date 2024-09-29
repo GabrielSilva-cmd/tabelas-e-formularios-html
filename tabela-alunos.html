@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lista de Alunos</h1>
+
+    <table>
+        <caption>Desempenho dos Alunos</caption>
+        <thead>
+            <tr>
+                <th scope="col" colspan="2">Nome</th>
+                <th scope="col">Nota</th>
+                <th scope="col">Média Final</th>
+                <th scope="col">Classificação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">João Silva</td>
+                <td>1ª Avaliação</td>
+                <td>8.5</td>
+                <td>8.0</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>2ª Avaliação</td>
+                <td>7.5</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Maria Oliveira</td>
+                <td>9.0</td>
+                <td>8.5</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td colspan="2">Pedro Santos</td>
+                <td>6.0</td>
+                <td>6.5</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
